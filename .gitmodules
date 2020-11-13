@@ -1,4 +1,4 @@
-[submodule: "api"]
+[submodule "api"]
   path = api
   url = https://github.com/radish-miyazaki/rails6-nuxt-app-api
 [submodule "front"]
