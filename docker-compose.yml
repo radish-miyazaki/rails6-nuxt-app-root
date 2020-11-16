@@ -11,6 +11,8 @@ services:
       - ./api/tmp/db:/var/lib/postgresql/data
   
   api:
+    stdin_open: true
+    tty: true
     build:
       context: ./api
       args:
